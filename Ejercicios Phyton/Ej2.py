@@ -1,5 +1,4 @@
-print("Introduce un año")
-anio = int(input())
+anio = int(input("Type a year: "))
 
 def esBisiesto(anio):
     bisiesto = False
@@ -17,6 +16,6 @@ def esBisiesto(anio):
     return bisiesto
 
 if(esBisiesto(anio)):
-    print("El año %d es Bisiesto" %anio)
+    print("The year %d is leap" %anio)
 else: 
-    print("El año %d no es Bisiesto" %anio)
+    print("The year %d isn't leap" %anio)

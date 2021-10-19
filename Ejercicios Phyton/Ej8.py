@@ -24,7 +24,7 @@ def esConsonante(caracter):
     return b
 
 while (caracter != ' '):
-    print("Introduce un caracter")
+    print("Type a char: ")
     caracter = input()[0]
 
     if esVocal(caracter):
@@ -34,6 +34,6 @@ while (caracter != ' '):
     else:
         contOtros += 1
 
-print("Se han escrito %d vocales" %contVocales)
-print("Se han escrito %d consonantes" %contConsonantes)
-print("Se han escrito %d caracteres especiales" %contOtros)
+print("Have been written %d vocals" %contVocales)
+print("Have been written %d consonants" %contConsonantes)
+print("Have been written %d special characters" %contOtros)

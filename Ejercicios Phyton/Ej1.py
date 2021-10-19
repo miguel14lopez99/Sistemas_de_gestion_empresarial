@@ -1,8 +1,7 @@
-print("Introuce el tiempo 1 (h m s): ")
-strT1 = input()
+strT1 = input("Type the first time (h m s): ")
 arrayT1 = strT1.split()
 
-print("Introuce el tiempo 2: ")
+print("Type the second time (h m s): ")
 strT2 = input()
 arrayT2 = strT2.split()
 
@@ -15,7 +14,7 @@ t2 = CalcSeg(arrayT2)
 
 tf = t1 - t2
 
-print("La diferencia es de: %d s." %tf)
+print("The difference is: %d s." %tf)
 
     
 

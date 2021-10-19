@@ -1,6 +1,6 @@
-print("Introduce un mínimo")
+print("Type the minimum: ")
 min = int(input())
-print("Introduce un máximo")
+print("Type the maximum: ")
 max = int(input())
 
 i = min

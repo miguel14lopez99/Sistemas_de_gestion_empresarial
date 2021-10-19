@@ -1,15 +1,15 @@
-print("Introduce la cantidad de numeros")
+print("Type the amount of numbers: ")
 n = int(input())
 
 max = 0
 i = 0
 for i in range(0,n):
-    print("Introduce el %dº" %(i+1))
+    print("Type the %dº" %(i+1))
     num = int(input())
 
     if max < num:
         max = num
     
-print("El mayor es el %d" %max)
+print("The greatest is %d" %max)
 
 

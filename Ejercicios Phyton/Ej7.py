@@ -3,11 +3,11 @@ caracter = ''
 vocales = {'a', 'e', 'i', 'o', 'u'}
 
 while (caracter != ' '):
-    print("Introduce un caracter")
+    print("Type a char")
     caracter = input()[0]
 
     for vocal in vocales:
         if vocal == caracter:
             cont += 1
 
-print("Se han escrito %d vocales" %cont)
+print("Have been written %d vocals" %cont)
