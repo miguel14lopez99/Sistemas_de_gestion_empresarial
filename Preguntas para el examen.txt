@@ -1,0 +1,23 @@
+Which one of this isn't a software license?
+a)Propietary Software License
+b)General Public License
+c)Owner Open License
+d)Open License Program
+
+Which one of this acronims represents an PERMISSIVE FREE SOFTWARE LICENSE?
+a)GLP License
+b)MIT License
+c)OLP License
+d)TLP License
+
+Which one of the next freedoms doesn't belong to the FOUR FREEDOMS?
+a)To run the program
+b)To study the program
+c)To sell the program
+d)To improve the program
+
+Which one isn't true about Open Source licenses?
+a) The program license is always free
+b) The program can be redistributed
+c) You can modify or improve the program
+d) You don't need to pay for the use
