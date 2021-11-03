@@ -1,9 +1,9 @@
 cont = 0
-caracter = ''
+caracter = '' # i have to initialize this variable for the while statement
 vocales = {'a', 'e', 'i', 'o', 'u'}
 
-while (caracter != ' '):
-    print("Type a char")
+while (caracter != ' '): # while the inserted character is not equal to ' ' the program continues to run
+    print("Type a char: ")
     caracter = input()[0]
 
     for vocal in vocales:

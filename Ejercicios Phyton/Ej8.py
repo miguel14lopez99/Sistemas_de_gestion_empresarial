@@ -5,25 +5,25 @@ caracter = ''
 vocales = {'a','e','i','o','u'}
 consonantes = {'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'}
 
-def esVocal(caracter):
+def esVocal(caracter): # checks if the character is a vocal
     a = False
 
     for vocal in vocales:
-        if vocal == caracter:
+        if vocal == caracter or a == True:
             a = True
     
     return a
 
-def esConsonante(caracter):
+def esConsonante(caracter): # checks if the character is a consonant
     b = False
 
     for consonante in consonantes:
-        if consonante == caracter:
+        if consonante == caracter or b == True:
             b = True
     
     return b
 
-while (caracter != ' '):
+while (caracter != ' '): # while the character not equals " " the program continue updating the counters
     print("Type a char: ")
     caracter = input()[0]
 

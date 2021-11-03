@@ -2,7 +2,7 @@ num = int(input("Type a number: "))
 
 sum = 1
 
-def returnTheOdd(num):
+def returnTheOdd(num): #find the previous odd
     
     if(num % 2 == 0):
         oddNum = num-1

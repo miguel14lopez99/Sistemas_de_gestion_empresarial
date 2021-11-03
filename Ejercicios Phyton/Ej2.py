@@ -5,10 +5,10 @@ def esBisiesto(anio):
 
     print(anio+1)
 
-    if (anio % 4) == 0 :
+    if (anio % 4) == 0 : #if the year is divisible by 4 is leap
         bisiesto = True
 
-    if ((anio % 100) == 0) and ((anio % 400) == 0) :
+    if ((anio % 100) == 0) and ((anio % 400) == 0) : #if the year is divisible by 100 and 400 is leap
         bisiesto = True
     else:
         bisiesto = False
