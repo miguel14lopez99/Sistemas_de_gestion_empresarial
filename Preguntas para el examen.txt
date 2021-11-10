@@ -21,3 +21,10 @@ a) The program license is always free
 b) The program can be redistributed
 c) You can modify or improve the program
 d) You don't need to pay for the use
+
+Find the type of license
+ubuntu -> Free software + some proprietary device drivers - General Public License (GPL)
+oddo -> General Public License (GPL)
+Factura Plus -> Licencia Flex - Perpetual License
+Microsoft office -> user subscription licenses (USLs)
+Navition -> Concurrent Client Access Licenses (CALs) - PLS private license sofware 
